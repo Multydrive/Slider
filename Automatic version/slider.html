@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="lucarne" onclick="incremente()">
+	<div id="lucarne">
 		<div id="plateau">
 			<img src="landscape.jpg" alt="" >
 			<img src="landscape1.jpg" alt="" >
@@ -46,7 +46,9 @@
 			nbr.innerHTML = position;
 
 		}
-	;
+			// Move the pictures after 5 seconds
+			setInterval(incremente,5000);
+
 
 
 	</script>
